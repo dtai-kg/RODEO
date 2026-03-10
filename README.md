@@ -67,7 +67,7 @@ python tokenizers/sotab2tokens.py
 python tokenizers/sotab2tokens_qwen.py
 ```
 
-> **Note:** Pre-generated pickle files are available on [Zenodo](https://zenodo.org/) and can be used directly to skip the tokenization step.
+> **Note:** Pre-generated pickle files are available on [Zenodo](https://zenodo.org/records/18944841) and can be used directly to skip the tokenization step.
 
 ## Graph Construction
 
