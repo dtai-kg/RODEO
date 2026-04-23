@@ -1,6 +1,8 @@
 # RODEO
 
-The official repository for the paper **"Label-Constrained Column Annotation with Language Models and Graph Neural Networks"**, accepted at the **42nd IEEE International Conference on Data Engineering (ICDE 2026)**.
+The official repository for the paper **"Label-Constrained Column Annotation with Language Models and Graph Neural Networks"**, accepted at the **42nd IEEE International Conference on Data Engineering (ICDE 2026)**. 
+
+:book: Read the full paper [here](docs/paper836.pdf).
 
 <p align="center">
   <img src="visuals/architecture.png" width="100%" alt="RODEO Architecture Overview"/>
