@@ -113,16 +113,15 @@ python inference/inference_gnn_llm.py --load_json config/setting_sotab_rodeo_gnn
 
 If you find this work useful, please cite:
 ```bibtex
-@inproceedings{yang2026rodeo,
+@inproceedings{Yang_2026,
 	title        = {Label-Constrained Column Annotation with Language Models and Graph Neural Networks},
 	author       = {Yang, Duo and Dasoulas, Ioannis and Dimou, Anastasia},
 	year         = 2026,
 	month        = {May},
 	booktitle    = {2026 IEEE 42nd International Conference on Data Engineering (ICDE)},
-	pages        = {2278--2293},
-	doi          = {10.1109/ICDE65706.2026.00171},
-	issn         = {2375-026X},
-	abstract     = {Assigning semantic labels to table columns and identifying relations between columns pose significant challenges in data management. Automatic column annotation has been widely treated as classification, with recent works using language models trained on annotated tables with type and property labels. While these language models have effectively modeled individual tables, they often overlook the underlying graph structure of the label space, where constraints can exist between certain types and properties within and across tables. To fill this gap, we propose RODEO, a two-tower architecture that integrates a language model and a graph neural network (GNN) to model the table and semantic labels, respectively. We reformulate column annotation tasks from classification to matching problems, where column and column-pair embeddings are aligned with embeddings that represent their corresponding semantic types (nodes) and properties (edges) within the graph. These embeddings, derived from the language model and GNN, are co-trained end-to-end using triplet loss with an online negative mining strategy. The training process brings semantically related columns and labels closer in the embedding space by minimizing their distances. Our approach, evaluated on publicly available benchmark datasets, outperforms state-of-the-art methods in both column type and column property annotation, highlighting that modeling label constraints through the graph significantly improves overall performance. Ablation studies on the triplet loss and GNN show the robustness of our framework's training procedure.},
-	keywords     = {data integration;table annotation;contrastive learning;language model;graph neural network;label constraints}
+	publisher    = {IEEE},
+	pages        = {2278–2293},
+	doi          = {10.1109/icde65706.2026.00171},
+	url          = {http://dx.doi.org/10.1109/icde65706.2026.00171}
 }
 ```
